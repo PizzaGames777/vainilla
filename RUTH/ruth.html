@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url('pimiento.png') center center no-repeat;
+  background-size: 500px; /* Aumentado desde 300px */
+  background-color: #fff;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      button {
+        font-size: 18px;
+        margin: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: #f0f0f0;
+        color: #333;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+
+      button:hover {
+        background-color: #ffe4b3;
+        transform: scale(1.05);
+      }
+
+      #result {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #222;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <script src="ruth.js"></script>
+  </body>
+</html>
